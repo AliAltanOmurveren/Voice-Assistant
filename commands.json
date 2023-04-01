@@ -1,0 +1,19 @@
+{
+    "dosyaları aç" : "explorer",
+    "sistem sesini kapat" : "nircmd.exe mutesysvolume 1",
+    "sistem sesini aç" : "nircmd.exe mutesysvolume 0",
+    "sistem sesini sona getir" : "nircmd.exe setsysvolume 65535",
+    "sistem sesini.* yap" : "nircmd.exe setsysvolume ",
+    "bilgisayarı uyku moduna al" : "nircmd.exe standby",
+    "tüm dosyaları kapat" : "nircmd.exe win close class \"CabinetWClass\"",
+    "hesap makinesi" : "calc",
+    "interneti aç" : "C:\\\"Program Files\"\\\"Mozilla Firefox\"\\firefox.exe",
+    "interneti kapat" : "taskkill /IM firefox.exe",
+    "müziği durdur" : "python keyboard_commands.py playpause",
+    "müziği başlat" : "python keyboard_commands.py playpause",
+    "sonraki şarkı" : "python keyboard_commands.py nexttrack",
+    "önceki şarkı" : "python keyboard_commands.py prevtrack && python keyboard_commands.py prevtrack",
+    "şarkıyı geri al" : "python keyboard_commands.py prevtrack",
+    "indirme leri aç" : "cd C:\\Users\\User\\Downloads && explorer .",
+    "proje leri aç" : "cd C:\\Users\\User\\Documents\\Projects && explorer ."
+}
